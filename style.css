@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #edf2ff;
+  background-image: url("blur-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+
+h1 {
+  font-size: 32px;
+  color: #e0e0e0;
+  margin-top: 24px;
+  margin-bottom: 8px;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f6ba08;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+
+  margin-bottom: 16px;
+  border-radius: 6px;
+
+  transition: 0.5s;
+}
+
+ul li a:hover {
+  background: #554619;
+}
+
+footer {
+  font-weight: 500;
+  font-size: 12px;
+  color: #e0e0e0;
+  opacity: 0.6;
+
+  transition: 0.5s;
+}
+
+footer:hover {
+  opacity: 1;
+}
+
+footer a {
+  color: #e0e0e0;
+}
+
+i {
+  padding-right: 5px;
+}
+
+img {
+  width: 100%;
+}
+
+img.avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 3.7px;
+  border: #f6ba08 solid 4px;
+
+  transition: 0.8s;
+}
+
+img.avatar:hover {
+  padding: 10px;
+  border: #f6ba08 solid 15px;
+
+  transition: 0.8s;
+}
+
+.username {
+  font-family: "Roboto Mono", sans-serif;
+  font-weight: 400;
+  color: #e0e0e0;
+  opacity: 0.8;
+  font-size: 18px;
+}
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 60px auto;
+}
