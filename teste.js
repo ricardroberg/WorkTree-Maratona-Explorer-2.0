@@ -1,0 +1,2 @@
+/* Comentario de multiplas linhas
+ no java script */
